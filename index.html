@@ -1,0 +1,89 @@
+<!DOCTYPE html>
+<html lang="en">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <meta name="description"
+        content="Explore the best tourist spots in Nigeria. Discover nature, history, and beautiful landscapes.">
+    <title>Nigeria Tourist Spots | Explore</title>
+    <link rel="stylesheet" href="./styles/main.css">
+    <link href="https://fonts.googleapis.com/css2?family=Poppins:wght@300;400;600;700&display=swap" rel="stylesheet">
+
+    <script type="module" src="./scripts/main.js"></script>
+</head>
+
+<body>
+    <header class="main-header">
+        <div class="header-content">
+            <h1>Nigeria Tourist Spots</h1>
+            <nav aria-label="Main Navigation" class="main-nav">
+                <ul class="nav-links">
+                    <li><a href="#">Home</a></li>
+                    <li><a href="#" class="active">Explore</a></li>
+                    <li><a href="#">Favourites</a></li>
+                </ul>
+            </nav>
+        </div>
+    </header>
+
+    <main class="container">
+        <section id="welcome-section" class="card">
+            <h2 id="greeting-text">Welcome, Traveler!</h2>
+            <p id="visit-counter"></p>
+            <form id="user-form" aria-label="User name form">
+                <label for="username">Enter your name:</label>
+                <input type="text" id="username" placeholder="Your name..." required>
+                <button type="submit" class="btn">Save Name</button>
+            </form>
+        </section>
+
+        <section id="country-stats" class="stats-section card fade-in">
+            <h2>About Nigeria</h2>
+            <div id="stats-container" class="loader">Loading country data...</div>
+        </section>
+
+        <section class="controls" aria-label="Filters and Search">
+            <input type="text" id="search-input" placeholder="Search tourist spots..."
+                aria-label="Search tourist spots">
+            <select id="category-filter" aria-label="Filter by Category">
+                <option value="all">All Categories</option>
+                <option value="nature">Nature</option>
+                <option value="wildlife">Wildlife</option>
+                <option value="landmark">Landmark</option>
+            </select>
+        </section>
+
+        <section id="spots-grid" class="grid-container" aria-label="Tourist Spots List"></section>
+    </main>
+
+    <footer>
+        <p>WDD 330 Final Project | Simeon Obianwa</p>
+        <p>&copy; 2026 Nigeria Tourist Spots. Lagos, Nigeria.</p>
+        <p id="last-modified"></p>
+        <div class="footer-links">
+            <ul>
+                <li><a href="https://www.loom.com/share/  " target="_blank" rel="noopener">Video Demonstration</a></li>
+                <li><a href="attributions.html">Attributions & Credits</a></li>
+            </ul>
+        </div>
+        <div class="social-links">
+            <a href="https://www.linkedin.com/in/simeonobianwa" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/linkedin.svg" alt="LinkedIn"
+                    loading="lazy">
+            </a>
+            <a href="https://www.youtube.com/@nigeria-tourist-spots" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/youtube.svg" alt="YouTube" loading="lazy">
+            </a>
+            <a href="https://x.com/nigeria-tourist-spots" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/x.svg" alt="X (Twitter)" loading="lazy">
+            </a>
+            <a href="https://github.com/simeon-obianwa" target="_blank" rel="noopener noreferrer">
+                <img src="https://cdn.jsdelivr.net/npm/simple-icons@v11/icons/github.svg" alt="GitHub" loading="lazy">
+            </a>
+        </div>
+    </footer>
+
+</body>
+
+</html>
