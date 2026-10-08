@@ -1,0 +1,128 @@
+[
+    {
+        "id": "1",
+        "name": "Zuma Rock",
+        "state": "Niger State",
+        "category": "landmark",
+        "shortDesc": "A large natural monolith, often called the 'Gateway to Abuja from Suleja'.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Zuma_Rock_Niger_State_Nigeria.jpg",
+        "wikiTitle": "Zuma_Rock",
+        "coordinates": {
+            "lat": 9.1278,
+            "lng": 7.2239
+        },
+        "established": "Natural"
+    },
+    {
+        "id": "2",
+        "name": "Obudu Mountain Resort",
+        "state": "Cross River State",
+        "category": "nature",
+        "shortDesc": "A popular tourist destination featuring cable cars and beautiful mountain views.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Obudu_cattle_ranch.jpg",
+        "wikiTitle": "Obudu_Mountain_Resort",
+        "coordinates": {
+            "lat": 6.3936,
+            "lng": 9.3775
+        },
+        "established": "1951"
+    },
+    {
+        "id": "3",
+        "name": "Yankari National Park",
+        "state": "Bauchi State",
+        "category": "wildlife",
+        "shortDesc": "Nigeria's richest wildlife oasis, containing warm springs and elephants.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Wiki_Loves_Africa_2017_Wikki_Warm_Spring_2.jpg",
+        "wikiTitle": "Yankari_National_Park",
+        "coordinates": {
+            "lat": 9.7547,
+            "lng": 10.5050
+        },
+        "established": "1956"
+    },
+    {
+        "id": "4",
+        "name": "Lekki Conservation Centre",
+        "state": "Lagos State",
+        "category": "nature",
+        "shortDesc": "A natural oasis in Lagos known for having the longest canopy walkway in Africa.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Lekki_conservation_centre.jpg",
+        "wikiTitle": "Lekki_Conservation_Centre",
+        "coordinates": {
+            "lat": 6.4385,
+            "lng": 3.5338
+        },
+        "established": "1990"
+    },
+    {
+        "id": "5",
+        "name": "Olumo Rock",
+        "state": "Ogun State",
+        "category": "landmark",
+        "shortDesc": "A historic mountain that served as a fortress for the Egba people in the 19th century.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Olumo_Rock.jpg",
+        "wikiTitle": "Olumo_Rock",
+        "coordinates": {
+            "lat": 7.1611,
+            "lng": 3.3483
+        },
+        "established": "Natural"
+    },
+    {
+        "id": "6",
+        "name": "Erin-Ijesha Waterfalls",
+        "state": "Osun State",
+        "category": "nature",
+        "shortDesc": "Also known as Olumirin waterfalls, featuring seven distinct cascading levels.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/77/Erin_Ijesha_water_fall.jpg",
+        "wikiTitle": "Erin-Ijesha_Waterfalls",
+        "coordinates": {
+            "lat": 7.5753,
+            "lng": 4.8022
+        },
+        "established": "Natural"
+    },
+    {
+        "id": "7",
+        "name": "Idanre Hill",
+        "state": "Ondo State",
+        "category": "landmark",
+        "shortDesc": "A stunning natural landscape featuring a 682-step climb and ancient cultural artifacts.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/Idanre_Hills_1.jpg",
+        "wikiTitle": "Idanre_Hill",
+        "coordinates": {
+            "lat": 7.1065,
+            "lng": 5.1100
+        },
+        "established": "Natural"
+    },
+    {
+        "id": "8",
+        "name": "Ikogosi Warm Springs",
+        "state": "Ekiti State",
+        "category": "nature",
+        "shortDesc": "A geological wonder where warm and cold springs flow side by side and meet.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Ikogosi_warm_spring.jpg",
+        "wikiTitle": "Ikogosi_Warm_Springs",
+        "coordinates": {
+            "lat": 7.5833,
+            "lng": 4.9833
+        },
+        "established": "Natural"
+    },
+    {
+        "id": "9",
+        "name": "Aso Rock",
+        "state": "FCT, Abuja",
+        "category": "landmark",
+        "shortDesc": "A massive granitic rock on the outskirts of Abuja, serving as the city's most noticeable feature.",
+        "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Aso_Rock_Abuja.jpg",
+        "wikiTitle": "Aso_Rock",
+        "coordinates": {
+            "lat": 9.0833,
+            "lng": 7.5361
+        },
+        "established": "Natural"
+    }
+]
