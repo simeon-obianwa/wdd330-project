@@ -7,7 +7,6 @@ export default class API {
             return data[0];
         } catch (error) {
             console.warn("API fetch blocked. Loading fallback data to maintain UI.");
-            // Fallback data structure matching the API exactly
             return {
                 capital: ["Abuja"],
                 population: 206139587,

@@ -19,9 +19,10 @@
             <h1>Nigeria Tourist Spots</h1>
             <nav aria-label="Main Navigation" class="main-nav">
                 <ul class="nav-links">
-                    <li><a href="#">Home</a></li>
-                    <li><a href="#" class="active">Explore</a></li>
-                    <li><a href="#">Favourites</a></li>
+                    <li><a href="#" id="nav-home" class="active">Home</a></li>
+                    <li><a href="#" id="nav-explore">Explore</a></li>
+                    <li><a href="#" id="nav-favourites">Favourites</a></li>
+                    <li><a href="#" id="nav-contact">Contact</a></li>
                 </ul>
             </nav>
         </div>
@@ -31,11 +32,22 @@
         <section id="welcome-section" class="card">
             <h2 id="greeting-text">Welcome, Traveler!</h2>
             <p id="visit-counter"></p>
-            <form id="user-form" aria-label="User name form">
-                <label for="username">Enter your name:</label>
-                <input type="text" id="username" placeholder="Your name..." required>
-                <button type="submit" class="btn">Save Name</button>
-            </form>
+
+            <div style="display: flex; flex-wrap: wrap; gap: 2rem; align-items: center; margin-top: 1rem;">
+                <div class="controls" aria-label="Filters and Search" style="margin: 0;">
+                    <input type="text" id="search-input" placeholder="Search tourist spots..."
+                        aria-label="Search tourist spots">
+                    <select id="category-filter" aria-label="Filter by Category">
+                        <option value="all">All Categories</option>
+                        <option value="landmark">Landmark</option>
+                        <option value="nature">Nature</option>
+                        <option value="wildlife">Wildlife</option>
+                        <option value="hotel">Hotels</option>
+                        <option value="recreation">Recreation</option>
+                        <option value="service">Car Rentals</option>
+                    </select>
+                </div>
+            </div>
         </section>
 
         <section id="country-stats" class="stats-section card fade-in">
@@ -43,18 +55,33 @@
             <div id="stats-container" class="loader">Loading country data...</div>
         </section>
 
-        <section class="controls" aria-label="Filters and Search">
-            <input type="text" id="search-input" placeholder="Search tourist spots..."
-                aria-label="Search tourist spots">
-            <select id="category-filter" aria-label="Filter by Category">
-                <option value="all">All Categories</option>
-                <option value="nature">Nature</option>
-                <option value="wildlife">Wildlife</option>
-                <option value="landmark">Landmark</option>
-            </select>
-        </section>
-
         <section id="spots-grid" class="grid-container" aria-label="Tourist Spots List"></section>
+        <section id="contact-section" class="card fade-in" style="display: none;">
+            <h2>Contact Us</h2>
+            <p>Have a question or want to suggest a new tourist spot? Send us a message!</p>
+            <form id="contact-form" style="display: flex; flex-direction: column; gap: 1rem; margin-top: 1.5rem;">
+                <div>
+                    <label for="contact-name">Name:</label><br>
+                    <input type="text" id="contact-name" required
+                        style="width: 100%; max-width: 500px; margin-top: 5px;">
+                </div>
+                <div>
+                    <label for="contact-email">Email:</label><br>
+                    <input type="email" id="contact-email" required
+                        style="width: 100%; max-width: 500px; margin-top: 5px;">
+                </div>
+                <div>
+                    <label for="contact-message">Message:</label><br>
+                    <textarea id="contact-message" rows="5" required
+                        style="width: 100%; max-width: 500px; padding: 0.5rem; border: 1px solid #ccc; border-radius: 5px; font-family: inherit; margin-top: 5px;"></textarea>
+                </div>
+                <button type="submit" class="btn" style="align-self: flex-start;">Send Message</button>
+            </form>
+            <div id="contact-success"
+                style="display: none; color: var(--primary-color); margin-top: 1rem; font-weight: bold;">
+                ✅ Thank you! Your message has been sent successfully.
+            </div>
+        </section>
     </main>
 
     <footer>
@@ -63,7 +90,7 @@
         <p id="last-modified"></p>
         <div class="footer-links">
             <ul>
-                <li><a href="https://www.loom.com/share/  " target="_blank" rel="noopener">Video Demonstration</a></li>
+                <li><a href="https://www.loom.com/share/" target="_blank" rel="noopener">Video Demonstration</a></li>
                 <li><a href="attributions.html">Attributions & Credits</a></li>
             </ul>
         </div>
@@ -83,7 +110,6 @@
             </a>
         </div>
     </footer>
-
 </body>
 
 </html>

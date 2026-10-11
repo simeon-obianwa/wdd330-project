@@ -5,7 +5,7 @@
         "state": "Niger State",
         "category": "landmark",
         "shortDesc": "A large natural monolith, often called the 'Gateway to Abuja from Suleja'.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/6/69/Zuma_Rock_Niger_State_Nigeria.jpg",
+        "image": "images/zuma-rock.jpg",
         "wikiTitle": "Zuma_Rock",
         "coordinates": {
             "lat": 9.1278,
@@ -15,53 +15,11 @@
     },
     {
         "id": "2",
-        "name": "Obudu Mountain Resort",
-        "state": "Cross River State",
-        "category": "nature",
-        "shortDesc": "A popular tourist destination featuring cable cars and beautiful mountain views.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/8/89/Obudu_cattle_ranch.jpg",
-        "wikiTitle": "Obudu_Mountain_Resort",
-        "coordinates": {
-            "lat": 6.3936,
-            "lng": 9.3775
-        },
-        "established": "1951"
-    },
-    {
-        "id": "3",
-        "name": "Yankari National Park",
-        "state": "Bauchi State",
-        "category": "wildlife",
-        "shortDesc": "Nigeria's richest wildlife oasis, containing warm springs and elephants.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/e/e0/Wiki_Loves_Africa_2017_Wikki_Warm_Spring_2.jpg",
-        "wikiTitle": "Yankari_National_Park",
-        "coordinates": {
-            "lat": 9.7547,
-            "lng": 10.5050
-        },
-        "established": "1956"
-    },
-    {
-        "id": "4",
-        "name": "Lekki Conservation Centre",
-        "state": "Lagos State",
-        "category": "nature",
-        "shortDesc": "A natural oasis in Lagos known for having the longest canopy walkway in Africa.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/8/8a/Lekki_conservation_centre.jpg",
-        "wikiTitle": "Lekki_Conservation_Centre",
-        "coordinates": {
-            "lat": 6.4385,
-            "lng": 3.5338
-        },
-        "established": "1990"
-    },
-    {
-        "id": "5",
         "name": "Olumo Rock",
         "state": "Ogun State",
         "category": "landmark",
         "shortDesc": "A historic mountain that served as a fortress for the Egba people in the 19th century.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/e/ec/Olumo_Rock.jpg",
+        "image": "images/olumo-rock.jpg",
         "wikiTitle": "Olumo_Rock",
         "coordinates": {
             "lat": 7.1611,
@@ -70,26 +28,12 @@
         "established": "Natural"
     },
     {
-        "id": "6",
-        "name": "Erin-Ijesha Waterfalls",
-        "state": "Osun State",
-        "category": "nature",
-        "shortDesc": "Also known as Olumirin waterfalls, featuring seven distinct cascading levels.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/7/77/Erin_Ijesha_water_fall.jpg",
-        "wikiTitle": "Erin-Ijesha_Waterfalls",
-        "coordinates": {
-            "lat": 7.5753,
-            "lng": 4.8022
-        },
-        "established": "Natural"
-    },
-    {
-        "id": "7",
+        "id": "3",
         "name": "Idanre Hill",
         "state": "Ondo State",
         "category": "landmark",
         "shortDesc": "A stunning natural landscape featuring a 682-step climb and ancient cultural artifacts.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/6/67/Idanre_Hills_1.jpg",
+        "image": "images/idanre.jpg",
         "wikiTitle": "Idanre_Hill",
         "coordinates": {
             "lat": 7.1065,
@@ -98,12 +42,96 @@
         "established": "Natural"
     },
     {
+        "id": "4",
+        "name": "Aso Rock",
+        "state": "FCT, Abuja",
+        "category": "landmark",
+        "shortDesc": "A massive granitic rock on the outskirts of Abuja, serving as the city's most noticeable feature.",
+        "image": "images/aso-rock.jpg",
+        "wikiTitle": "Aso_Rock",
+        "coordinates": {
+            "lat": 9.0833,
+            "lng": 7.5361
+        },
+        "established": "Natural"
+    },
+    {
+        "id": "5",
+        "name": "National Arts Theatre",
+        "state": "Lagos State",
+        "category": "landmark",
+        "shortDesc": "The primary centre for the performing arts in Nigeria, shaped like a military hat.",
+        "image": "images/national-theatre.jpg",
+        "wikiTitle": "National_Arts_Theatre",
+        "coordinates": {
+            "lat": 6.4760,
+            "lng": 3.3680
+        },
+        "established": "1977"
+    },
+    {
+        "id": "6",
+        "name": "Kano City Walls",
+        "state": "Kano State",
+        "category": "landmark",
+        "shortDesc": "Ancient defensive walls built to protect the inhabitants of the ancient city of Kano.",
+        "image": "images/kano-walls.jpg",
+        "wikiTitle": "Kano_city_walls",
+        "coordinates": {
+            "lat": 11.9930,
+            "lng": 8.5250
+        },
+        "established": "1095"
+    },
+    {
+        "id": "7",
+        "name": "Obudu Mountain Resort",
+        "state": "Cross River State",
+        "category": "nature",
+        "shortDesc": "A popular tourist destination featuring cable cars and beautiful mountain views.",
+        "image": "images/obudu.jpg",
+        "wikiTitle": "Obudu_Mountain_Resort",
+        "coordinates": {
+            "lat": 6.3936,
+            "lng": 9.3775
+        },
+        "established": "1951"
+    },
+    {
         "id": "8",
+        "name": "Lekki Conservation Centre",
+        "state": "Lagos State",
+        "category": "nature",
+        "shortDesc": "A natural oasis in Lagos known for having the longest canopy walkway in Africa.",
+        "image": "images/lekki.jpg",
+        "wikiTitle": "Lekki_Conservation_Centre",
+        "coordinates": {
+            "lat": 6.4385,
+            "lng": 3.5338
+        },
+        "established": "1990"
+    },
+    {
+        "id": "9",
+        "name": "Erin-Ijesha Waterfalls",
+        "state": "Osun State",
+        "category": "nature",
+        "shortDesc": "Also known as Olumirin waterfalls, featuring seven distinct cascading levels.",
+        "image": "images/erin-ijesha.jpg",
+        "wikiTitle": "Erin-Ijesha_Waterfalls",
+        "coordinates": {
+            "lat": 7.5753,
+            "lng": 4.8022
+        },
+        "established": "Natural"
+    },
+    {
+        "id": "10",
         "name": "Ikogosi Warm Springs",
         "state": "Ekiti State",
         "category": "nature",
         "shortDesc": "A geological wonder where warm and cold springs flow side by side and meet.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/7/7f/Ikogosi_warm_spring.jpg",
+        "image": "images/ikogosi.jpg",
         "wikiTitle": "Ikogosi_Warm_Springs",
         "coordinates": {
             "lat": 7.5833,
@@ -112,17 +140,367 @@
         "established": "Natural"
     },
     {
-        "id": "9",
-        "name": "Aso Rock",
-        "state": "FCT, Abuja",
-        "category": "landmark",
-        "shortDesc": "A massive granitic rock on the outskirts of Abuja, serving as the city's most noticeable feature.",
-        "image": "https://upload.wikimedia.org/wikipedia/commons/8/87/Aso_Rock_Abuja.jpg",
-        "wikiTitle": "Aso_Rock",
+        "id": "11",
+        "name": "Ogbunike Caves",
+        "state": "Anambra State",
+        "category": "nature",
+        "shortDesc": "A collection of caves that hold historical and spiritual significance for the local people.",
+        "image": "images/ogbunike.jpg",
+        "wikiTitle": "Ogbunike_Caves",
         "coordinates": {
-            "lat": 9.0833,
-            "lng": 7.5361
+            "lat": 6.1800,
+            "lng": 6.9000
         },
         "established": "Natural"
+    },
+    {
+        "id": "12",
+        "name": "Gurara Waterfalls",
+        "state": "Niger State",
+        "category": "nature",
+        "shortDesc": "A stunning waterfall spanning 200 meters across, heavily flowing during the rainy season.",
+        "image": "images/gurara.jpg",
+        "wikiTitle": "Gurara_Waterfalls",
+        "coordinates": {
+            "lat": 9.2100,
+            "lng": 7.0200
+        },
+        "established": "Natural"
+    },
+    {
+        "id": "13",
+        "name": "Yankari National Park",
+        "state": "Bauchi State",
+        "category": "wildlife",
+        "shortDesc": "Nigeria's richest wildlife oasis, containing warm springs and elephants.",
+        "image": "images/yankari.jpg",
+        "wikiTitle": "Yankari_National_Park",
+        "coordinates": {
+            "lat": 9.7547,
+            "lng": 10.5050
+        },
+        "established": "1956"
+    },
+    {
+        "id": "14",
+        "name": "Kainji Lake National Park",
+        "state": "Niger State",
+        "category": "wildlife",
+        "shortDesc": "A premier national park known for its diverse wildlife and the massive Kainji Dam.",
+        "image": "images/kainji.jpg",
+        "wikiTitle": "Kainji_National_Park",
+        "coordinates": {
+            "lat": 9.8167,
+            "lng": 4.6333
+        },
+        "established": "1978"
+    },
+    {
+        "id": "15",
+        "name": "Okomu National Park",
+        "state": "Edo State",
+        "category": "wildlife",
+        "shortDesc": "A protected forest block holding a remnant of the rich habitat that once covered the region.",
+        "image": "images/okomu.jpg",
+        "wikiTitle": "Okomu_National_Park",
+        "coordinates": {
+            "lat": 6.3333,
+            "lng": 5.2500
+        },
+        "established": "1935"
+    },
+    {
+        "id": "16",
+        "name": "Cross River National Park",
+        "state": "Cross River State",
+        "category": "wildlife",
+        "shortDesc": "One of the richest areas of tropical rainforest in West Africa.",
+        "image": "images/cross-river-park.jpg",
+        "wikiTitle": "Cross_River_National_Park",
+        "coordinates": {
+            "lat": 5.6330,
+            "lng": 8.7660
+        },
+        "established": "1991"
+    },
+    {
+        "id": "17",
+        "name": "Gashaka Gumti National Park",
+        "state": "Taraba State",
+        "category": "wildlife",
+        "shortDesc": "Nigeria's largest national park, featuring diverse mountainous and savannah terrain.",
+        "image": "images/gashaka.jpg",
+        "wikiTitle": "Gashaka_Gumti_National_Park",
+        "coordinates": {
+            "lat": 7.3300,
+            "lng": 11.5800
+        },
+        "established": "1991"
+    },
+    {
+        "id": "18",
+        "name": "Afi Mountain Sanctuary",
+        "state": "Cross River State",
+        "category": "wildlife",
+        "shortDesc": "A vital sanctuary protecting endangered primates like the Cross River gorilla.",
+        "image": "images/afi-mountain.jpg",
+        "wikiTitle": "Afi_Mountain_Wildlife_Sanctuary",
+        "coordinates": {
+            "lat": 6.3100,
+            "lng": 8.9800
+        },
+        "established": "2000"
+    },
+    {
+        "id": "19",
+        "name": "Transcorp Hilton",
+        "state": "FCT, Abuja",
+        "category": "hotel",
+        "shortDesc": "A luxury 5-star hotel located in the heart of Nigeria's capital city.",
+        "image": "images/transcorp.jpg",
+        "wikiTitle": "Transcorp_Hilton_Hotel,_Abuja",
+        "coordinates": {
+            "lat": 9.0797,
+            "lng": 7.4994
+        },
+        "established": "1987"
+    },
+    {
+        "id": "20",
+        "name": "Lagos Continental",
+        "state": "Lagos State",
+        "category": "hotel",
+        "shortDesc": "One of the tallest hotels in West Africa offering stunning views of the Victoria Island skyline.",
+        "image": "images/lagos-continental.jpg",
+        "wikiTitle": "Lagos_Continental_Hotel",
+        "coordinates": {
+            "lat": 6.4311,
+            "lng": 3.4158
+        },
+        "established": "2013"
+    },
+    {
+        "id": "21",
+        "name": "Eko Hotels & Suites",
+        "state": "Lagos State",
+        "category": "hotel",
+        "shortDesc": "The largest hotel and conference centre in Nigeria.",
+        "image": "images/eko-hotel.jpg",
+        "wikiTitle": "Eko_Hotels_and_Suites",
+        "coordinates": {
+            "lat": 6.4250,
+            "lng": 3.4210
+        },
+        "established": "1977"
+    },
+    {
+        "id": "22",
+        "name": "The Wheatbaker",
+        "state": "Lagos State",
+        "category": "hotel",
+        "shortDesc": "A premium boutique hotel located in the upscale neighborhood of Ikoyi.",
+        "image": "images/wheatbaker.jpg",
+        "wikiTitle": "Ikoyi",
+        "coordinates": {
+            "lat": 6.4490,
+            "lng": 3.4400
+        },
+        "established": "2011"
+    },
+    {
+        "id": "23",
+        "name": "Radisson Blu Anchorage",
+        "state": "Lagos State",
+        "category": "hotel",
+        "shortDesc": "A scenic waterfront hotel situated along the Lagos Lagoon.",
+        "image": "images/radisson.jpg",
+        "wikiTitle": "Radisson_Blu",
+        "coordinates": {
+            "lat": 6.4330,
+            "lng": 3.4160
+        },
+        "established": "2011"
+    },
+    {
+        "id": "24",
+        "name": "Fraser Suites",
+        "state": "FCT, Abuja",
+        "category": "hotel",
+        "shortDesc": "Luxury serviced apartments offering world-class amenities in the capital.",
+        "image": "images/fraser.jpg",
+        "wikiTitle": "Abuja",
+        "coordinates": {
+            "lat": 9.0600,
+            "lng": 7.4800
+        },
+        "established": "2018"
+    },
+    {
+        "id": "25",
+        "name": "Tinapa Resort",
+        "state": "Cross River State",
+        "category": "recreation",
+        "shortDesc": "A premier business and leisure resort integrating wholesale retail with entertainment.",
+        "image": "images/tinapa.jpg",
+        "wikiTitle": "Tinapa_Resort",
+        "coordinates": {
+            "lat": 5.0333,
+            "lng": 8.3500
+        },
+        "established": "2007"
+    },
+    {
+        "id": "26",
+        "name": "Nike Art Gallery",
+        "state": "Lagos State",
+        "category": "recreation",
+        "shortDesc": "A magnificent multi-story gallery holding thousands of Nigerian artworks.",
+        "image": "images/nike-art.jpg",
+        "wikiTitle": "Nike_Art_Gallery",
+        "coordinates": {
+            "lat": 6.4350,
+            "lng": 3.4930
+        },
+        "established": "2009"
+    },
+    {
+        "id": "27",
+        "name": "Tarkwa Bay Beach",
+        "state": "Lagos State",
+        "category": "recreation",
+        "shortDesc": "An artificial sheltered beach accessible only by boat or water taxi.",
+        "image": "images/tarkwa-bay.jpg",
+        "wikiTitle": "Tarkwa_Bay_Beach",
+        "coordinates": {
+            "lat": 6.3980,
+            "lng": 3.3910
+        },
+        "established": "Natural"
+    },
+    {
+        "id": "28",
+        "name": "Omu Resort",
+        "state": "Lagos State",
+        "category": "recreation",
+        "shortDesc": "A family destination combining a zoo, amusement park, and nature trails.",
+        "image": "images/omu-resort.jpg",
+        "wikiTitle": "Lekki",
+        "coordinates": {
+            "lat": 6.4700,
+            "lng": 3.7300
+        },
+        "established": "2014"
+    },
+    {
+        "id": "29",
+        "name": "Jabi Lake Park",
+        "state": "FCT, Abuja",
+        "category": "recreation",
+        "shortDesc": "A man-made lake offering boat rides, a park, and an adjacent shopping mall.",
+        "image": "images/jabi-lake.jpg",
+        "wikiTitle": "Jabi_Lake",
+        "coordinates": {
+            "lat": 9.0700,
+            "lng": 7.4200
+        },
+        "established": "Natural"
+    },
+    {
+        "id": "30",
+        "name": "Magicland Amusement Park",
+        "state": "FCT, Abuja",
+        "category": "recreation",
+        "shortDesc": "A popular theme park offering thrilling rides and family entertainment.",
+        "image": "images/magicland.jpg",
+        "wikiTitle": "Abuja",
+        "coordinates": {
+            "lat": 9.0300,
+            "lng": 7.4500
+        },
+        "established": "2007"
+    },
+    {
+        "id": "31",
+        "name": "Hertz Car Rental",
+        "state": "FCT, Abuja",
+        "category": "service",
+        "shortDesc": "Premium car rental and chauffeur services providing reliable transportation across major cities.",
+        "image": "images/hertz.jpg",
+        "wikiTitle": "Hertz_Corporation",
+        "coordinates": {
+            "lat": 9.0578,
+            "lng": 7.4950
+        },
+        "established": "1918"
+    },
+    {
+        "id": "32",
+        "name": "Avis Rent a Car",
+        "state": "Lagos State",
+        "category": "service",
+        "shortDesc": "International vehicle rental brand offering short and long term leasing.",
+        "image": "images/avis.jpg",
+        "wikiTitle": "Avis_Rent_a_Car_System",
+        "coordinates": {
+            "lat": 6.5200,
+            "lng": 3.3700
+        },
+        "established": "1946"
+    },
+    {
+        "id": "33",
+        "name": "Sixt Rent a Car",
+        "state": "Lagos State",
+        "category": "service",
+        "shortDesc": "High-end vehicle rental service operating out of major Nigerian airports and cities.",
+        "image": "images/sixt.jpg",
+        "wikiTitle": "Sixt",
+        "coordinates": {
+            "lat": 6.6000,
+            "lng": 3.3300
+        },
+        "established": "1912"
+    },
+    {
+        "id": "34",
+        "name": "Europcar Nigeria",
+        "state": "Lagos State",
+        "category": "service",
+        "shortDesc": "Providing flexible transport solutions and logistics management across the country.",
+        "image": "images/europcar.jpg",
+        "wikiTitle": "Europcar",
+        "coordinates": {
+            "lat": 6.5500,
+            "lng": 3.3500
+        },
+        "established": "1949"
+    },
+    {
+        "id": "35",
+        "name": "C&I Leasing",
+        "state": "Lagos State",
+        "category": "service",
+        "shortDesc": "Leading Nigerian company providing fleet management and vehicle rental services.",
+        "image": "images/ci-leasing.jpg",
+        "wikiTitle": "C%26I_Leasing",
+        "coordinates": {
+            "lat": 6.4400,
+            "lng": 3.4700
+        },
+        "established": "1990"
+    },
+    {
+        "id": "36",
+        "name": "Swift Rental Cars",
+        "state": "Lagos State",
+        "category": "service",
+        "shortDesc": "Local rental service known for reliable airport transfers and corporate rentals.",
+        "image": "images/swift-rental.jpg",
+        "wikiTitle": "Lagos",
+        "coordinates": {
+            "lat": 6.5000,
+            "lng": 3.3800
+        },
+        "established": "2005"
     }
 ]

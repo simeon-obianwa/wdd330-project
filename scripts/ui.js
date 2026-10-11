@@ -1,62 +1,61 @@
-import Storage from './storage.js';
-
 export default class UI {
     static renderNigeriaStats(data) {
         const container = document.getElementById('stats-container');
-        if (!data) {
-            container.innerHTML = "<p>Data unavailable.</p>";
-            return;
-        }
+        if (!data) return;
+
         container.innerHTML = `
-            <p><strong>Capital:</strong> ${data.capital[0]}</p>
+            <p><strong>Capital:</strong> ${data.capital}</p>
             <p><strong>Population:</strong> ${data.population.toLocaleString()}</p>
             <p><strong>Region:</strong> ${data.region}</p>
-            <p><strong>Currency:</strong> ${Object.values(data.currencies)[0].name}</p>
+            <p><strong>Currency:</strong> ${data.currency}</p>
         `;
+        container.classList.remove('loader');
     }
 
-    static renderSpots(spots, favorites) {
-        const grid = document.getElementById('spots-grid');
-        grid.innerHTML = '';
+    static renderSpots(spots, favorites, container = document.getElementById('spots-grid')) {
+        if (!spots.length) {
+            container.innerHTML = '<p style="text-align:center; width:100%;">No spots found matching your search.</p>';
+            return;
+        }
 
-        spots.forEach(spot => {
-            const isFav = favorites.includes(spot.id);
-            const card = document.createElement('div');
-            card.classList.add('flip-card', 'fade-in');
-
-            card.innerHTML = `
+        container.innerHTML = spots.map(spot => `
+            <div class="flip-card">
                 <div class="flip-card-inner">
                     <div class="flip-card-front">
-                        <img src="${spot.image}" alt="${spot.name}">
+                        <img src="${spot.image}" alt="${spot.name}" loading="lazy">
                         <div class="card-content">
                             <h3>${spot.name}</h3>
                             <p>${spot.state}</p>
-                            <span style="color:var(--accent-color)">⭐ ${spot.category.toUpperCase()}</span>
+                            <p style="color: var(--accent-color); font-weight: bold; margin-top: 5px;">⭐ ${spot.category.toUpperCase()}</p>
                         </div>
                     </div>
                     <div class="flip-card-back">
                         <h3>${spot.name}</h3>
-                        <p class="wiki-desc" id="wiki-${spot.id}">Loading detail...</p>
-                        <p class="weather-info" id="weather-${spot.id}">Loading weather...</p>
-                        <button class="btn favorite-btn ${isFav ? 'active' : ''}" data-id="${spot.id}">
-                            ${isFav ? '❤️ Remove Fav' : '🤍 Add Fav'}
+                        <p style="font-size: 0.9rem; margin-top: 10px;">${spot.shortDesc}</p>
+                        <div style="font-size: 0.8rem; margin: 15px 0;">
+                            <p id="wiki-${spot.id}" class="loader">Loading info...</p>
+                            <p id="weather-${spot.id}" class="loader">Loading weather...</p>
+                        </div>
+                        <button class="favorite-btn btn ${favorites.includes(spot.id) ? 'active' : ''}" data-id="${spot.id}">
+                            ${favorites.includes(spot.id) ? '❤ Remove Fav' : '🤍 Add Fav'}
                         </button>
                     </div>
                 </div>
-            `;
-            grid.appendChild(card);
-        });
+            </div>
+        `).join('');
     }
 
-    static updateSpotDetails(id, wikiDesc, weather) {
+    static updateSpotDetails(id, wiki, weather) {
         const wikiEl = document.getElementById(`wiki-${id}`);
         const weatherEl = document.getElementById(`weather-${id}`);
 
-        if (wikiEl) wikiEl.textContent = wikiDesc.substring(0, 100) + '...';
+        if (wikiEl) {
+            wikiEl.textContent = wiki ? wiki : 'Info unavailable.';
+            wikiEl.classList.remove('loader');
+        }
         if (weatherEl) {
-            weatherEl.innerHTML = weather
-                ? `Current Temp: ${weather.temperature}°C`
-                : "Weather unavailable";
+            weatherEl.textContent = weather ? weather : 'Weather unavailable.';
+            weatherEl.classList.remove('loader');
         }
     }
 }
