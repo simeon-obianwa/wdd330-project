@@ -397,7 +397,7 @@
         "state": "FCT, Abuja",
         "category": "recreation",
         "shortDesc": "A man-made lake offering boat rides, a park, and an adjacent shopping mall.",
-        "image": "images/jabi-lake.jpg",
+        "image": "images/jabi-lake.webp",
         "wikiTitle": "Jabi_Lake",
         "coordinates": {
             "lat": 9.0700,
@@ -411,7 +411,7 @@
         "state": "FCT, Abuja",
         "category": "recreation",
         "shortDesc": "A popular theme park offering thrilling rides and family entertainment.",
-        "image": "images/magicland.jpg",
+        "image": "images/magicland.webp",
         "wikiTitle": "Abuja",
         "coordinates": {
             "lat": 9.0300,
@@ -467,7 +467,7 @@
         "state": "Lagos State",
         "category": "service",
         "shortDesc": "Providing flexible transport solutions and logistics management across the country.",
-        "image": "images/europcar.jpg",
+        "image": "images/europcar.webp",
         "wikiTitle": "Europcar",
         "coordinates": {
             "lat": 6.5500,
@@ -481,7 +481,7 @@
         "state": "Lagos State",
         "category": "service",
         "shortDesc": "Leading Nigerian company providing fleet management and vehicle rental services.",
-        "image": "images/ci-leasing.jpg",
+        "image": "images/ci-leasing.webp",
         "wikiTitle": "C%26I_Leasing",
         "coordinates": {
             "lat": 6.4400,
@@ -495,7 +495,7 @@
         "state": "Lagos State",
         "category": "service",
         "shortDesc": "Local rental service known for reliable airport transfers and corporate rentals.",
-        "image": "images/swift-rental.jpg",
+        "image": "images/swift-rental.webp",
         "wikiTitle": "Lagos",
         "coordinates": {
             "lat": 6.5000,
