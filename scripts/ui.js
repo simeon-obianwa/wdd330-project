@@ -53,8 +53,20 @@ export default class UI {
             wikiEl.textContent = wiki ? wiki : 'Info unavailable.';
             wikiEl.classList.remove('loader');
         }
+
         if (weatherEl) {
-            weatherEl.textContent = weather ? weather : 'Weather unavailable.';
+            let weatherText = 'Weather unavailable.';
+
+            if (weather) {
+                if (typeof weather === 'string') {
+                    weatherText = weather;
+                } else if (typeof weather === 'object') {
+                    const temp = weather?.current_weather?.temperature || weather?.current?.temperature_2m || 'N/A';
+                    weatherText = `🌡️ Current Temp: ${temp}°C`;
+                }
+            }
+
+            weatherEl.textContent = weatherText;
             weatherEl.classList.remove('loader');
         }
     }
