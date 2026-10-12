@@ -75,7 +75,7 @@
         "state": "Kano State",
         "category": "landmark",
         "shortDesc": "Ancient defensive walls built to protect the inhabitants of the ancient city of Kano.",
-        "image": "images/kano-walls.jpg",
+        "image": "images/kano-walls.webp",
         "wikiTitle": "Kano_city_walls",
         "coordinates": {
             "lat": 11.9930,
@@ -89,7 +89,7 @@
         "state": "Cross River State",
         "category": "nature",
         "shortDesc": "A popular tourist destination featuring cable cars and beautiful mountain views.",
-        "image": "images/obudu.jpg",
+        "image": "images/obudu.webp",
         "wikiTitle": "Obudu_Mountain_Resort",
         "coordinates": {
             "lat": 6.3936,
@@ -173,7 +173,7 @@
         "state": "Bauchi State",
         "category": "wildlife",
         "shortDesc": "Nigeria's richest wildlife oasis, containing warm springs and elephants.",
-        "image": "images/yankari.jpg",
+        "image": "images/yankari.webp",
         "wikiTitle": "Yankari_National_Park",
         "coordinates": {
             "lat": 9.7547,
@@ -187,7 +187,7 @@
         "state": "Niger State",
         "category": "wildlife",
         "shortDesc": "A premier national park known for its diverse wildlife and the massive Kainji Dam.",
-        "image": "images/kainji.jpg",
+        "image": "images/kainji.webp",
         "wikiTitle": "Kainji_National_Park",
         "coordinates": {
             "lat": 9.8167,
@@ -201,7 +201,7 @@
         "state": "Edo State",
         "category": "wildlife",
         "shortDesc": "A protected forest block holding a remnant of the rich habitat that once covered the region.",
-        "image": "images/okomu.jpg",
+        "image": "images/okomu.webp",
         "wikiTitle": "Okomu_National_Park",
         "coordinates": {
             "lat": 6.3333,
@@ -215,7 +215,7 @@
         "state": "Cross River State",
         "category": "wildlife",
         "shortDesc": "One of the richest areas of tropical rainforest in West Africa.",
-        "image": "images/cross-river-park.jpg",
+        "image": "images/cross-river-park.webp",
         "wikiTitle": "Cross_River_National_Park",
         "coordinates": {
             "lat": 5.6330,
@@ -229,7 +229,7 @@
         "state": "Taraba State",
         "category": "wildlife",
         "shortDesc": "Nigeria's largest national park, featuring diverse mountainous and savannah terrain.",
-        "image": "images/gashaka.jpg",
+        "image": "images/gashaka.webp",
         "wikiTitle": "Gashaka_Gumti_National_Park",
         "coordinates": {
             "lat": 7.3300,
